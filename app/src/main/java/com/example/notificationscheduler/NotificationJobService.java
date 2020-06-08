@@ -32,7 +32,7 @@ public class NotificationJobService extends JobService {
                 .setContentTitle("Job Service")
                 .setContentText("Your Job ran to completion")
                 .setContentIntent(contentPendingIntent)
-                .setSmallIcon(R.mipmap.ic_job_running)
+                .setSmallIcon(R.drawable.ic_job_running)
                 .setPriority(NotificationCompat.PRIORITY_HIGH)
                 .setDefaults(NotificationCompat.DEFAULT_ALL)
                 .setAutoCancel(true);
